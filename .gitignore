@@ -36,7 +36,7 @@ logs/
 outputs/
 runs/
 checkpoints/
-experiments/
+/experiments
 
 #################################
 # ML / PyTorch artifacts

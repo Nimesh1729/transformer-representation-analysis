@@ -1,0 +1,12 @@
+experiment:
+  name: sentence_bert
+
+model:
+  name: sentence-transformers/all-MiniLM-L6-v2
+
+system:
+  seed: 42
+  device: cpu
+
+logging:
+  level: INFO
