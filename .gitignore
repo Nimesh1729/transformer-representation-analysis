@@ -32,10 +32,10 @@ Thumbs.db
 #################################
 # Logs / outputs / experiments
 #################################
-logs/
-outputs/
-runs/
-checkpoints/
+/logs
+/outputs/
+/runs
+/checkpoints
 /experiments
 
 #################################
@@ -49,9 +49,10 @@ checkpoints/
 #################################
 # Datasets (optional but common)
 #################################
-data/
-datasets/
+#/data
+/datasets
 *.csv
+!astronomy_sentences.csv
 *.npz
 *.h5
 
